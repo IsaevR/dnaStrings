@@ -10,7 +10,7 @@ namespace dnaStrings
             string dna = "ATCG";
             Console.WriteLine("DNA string is "+  dna);
             Console.WriteLine(" The complementary side is: " + MakeComplement(dna));
-           
+            List<int> ages = new List<int> { 21, 46, 46, 55, 17, 21, 55, 55 };
 
         }
 
