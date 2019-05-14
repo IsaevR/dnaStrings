@@ -10,16 +10,7 @@ namespace dnaStrings
             string dna = "ATCG";
             Console.WriteLine("DNA string is "+  dna);
             Console.WriteLine(" The complementary side is: " + MakeComplement(dna));
-            List<int> ages = new List<int> { 21, 46, 46, 55, 17, 21, 55, 55 };
-
-           IEnumerable<int> distinctAges = ages.Distinct();
-
-           Console.WriteLine("Distinct ages:");
-
-            foreach(int age in distinctAges)
-           {
-               Console.WriteLine(age);
-           }
+           
 
         }
 
@@ -44,16 +35,7 @@ namespace dnaStrings
             }
             return result;
         }
-        public static int GetUnique(IEnumerable<int> numbers)
-        {
-           //your code
-            int r = 0;
-           
-            IEnumerable<int> eluminate = numbers.Distinct();
-            
-   
-            return r;
-        }
+
         
     }
     
